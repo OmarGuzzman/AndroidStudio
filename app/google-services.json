@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "237312289792",
+    "project_id": "products-5808a",
+    "storage_bucket": "products-5808a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237312289792:android:2ae9895b6160baa689fce5",
+        "android_client_info": {
+          "package_name": "com.equipodosb.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWpAfqkkE992rOIVD--qtXxCOa-PFm864"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
