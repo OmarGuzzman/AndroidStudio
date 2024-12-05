@@ -30,6 +30,7 @@ class HomeActivity : AppCompatActivity() {
 
         var btn_log_out = findViewById<Button>(R.id.btn_log_out)
         val btnForm: Button = findViewById(R.id.btn_form)
+        val btnGastos: Button = findViewById(R.id.btn_gastos)
         var text_email = findViewById<TextView>(R.id.text_email)
         val user = Firebase.auth.currentUser
         text_email.text = user?.email
@@ -59,6 +60,11 @@ class HomeActivity : AppCompatActivity() {
 
         btnForm.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnGastos.setOnClickListener {
+            val intent = Intent(this, MainGastos::class.java)
             startActivity(intent)
         }
 
